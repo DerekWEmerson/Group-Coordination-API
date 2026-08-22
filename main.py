@@ -11,7 +11,7 @@ app.include_router(members.router)
 app.include_router(availability.router)
 app.include_router(events.router)
 app.include_router(moderation.router)
-app.include_router(friends.router)
+# app.include_router(friends.router)
 
 database.init_db()
 
